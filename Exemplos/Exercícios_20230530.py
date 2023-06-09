@@ -30,7 +30,6 @@ while True:
         break
     nota = float(input("Digite a nota do aluno: "))
     notas[nome] = nota
-
 print(notas)
 
 maior_nota = 0
@@ -42,7 +41,6 @@ for x, y in notas.items():
         alunos_maior_nota.append(x)
     elif y == maior_nota:
         alunos_maior_nota.append(x)
-
 print(f"Aluno(s) com a maior nota: {alunos_maior_nota}")
 
 
