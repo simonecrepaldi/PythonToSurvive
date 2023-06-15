@@ -4,5 +4,5 @@ if v > 80:
     print("Você foi multado!")
     multa = (v-80)*5
     print(f"Valor da multa: R${multa:.2f}.")
-
-    
+if v <= 80:
+    print("Velocidade permitida.")
