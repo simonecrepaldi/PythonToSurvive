@@ -1,4 +1,4 @@
-# Exercícios de Estruturas de Dados - 19/06/2023
+# Exercícios - 19/06/2023
 
 # Exercício 1:
 # Crie um conjunto chamado "frutas" com os nomes de algumas frutas.
