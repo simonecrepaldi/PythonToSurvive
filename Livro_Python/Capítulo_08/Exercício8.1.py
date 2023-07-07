@@ -1,4 +1,4 @@
-def maior(a, b):
+def máximo(a, b):
     if a > b:
         maior = a
     else:
@@ -6,6 +6,6 @@ def maior(a, b):
     return maior
 
 
-print(maior(5, 6))
-print(maior(2, 1))
-print(maior(7, 7))
+print(máximo(5, 6))
+print(máximo(2, 1))
+print(máximo(7, 7))
