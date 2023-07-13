@@ -9,6 +9,7 @@ def primo(p):
             return False
     return True
 
+
 print(primo(0))
 print(primo(1))
 print(primo(2))

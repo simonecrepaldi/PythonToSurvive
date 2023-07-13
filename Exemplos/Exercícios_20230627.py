@@ -32,9 +32,9 @@ print(f"Você deve comprar o produto {index} que custa R${precos[index-1]:.2f}")
 # Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
 ano = int(input("Informe o ano: "))
 if ((ano % 4 == 0) and (ano % 100 != 0)) or (ano % 400 == 0) :
-    print(f"O ano {ano} é bissexto.")
+    print(f"O ano {ano} é bissexto!")
 else:
-    print(f"O ano {ano} não é bissexto.")
+    print(f"O ano {ano} não é bissexto!")
 
 
 # Exercício 4:
@@ -50,7 +50,7 @@ while x <= 3:
     x += 1
 media = (soma/3)
 if media == 10:
-    print(f"Aprovado com Distinção com a média {media:.2f}!")
+    print(f"Aprovado com distinção com a média {media:.2f}!")
 elif media > 7:
     print(f"Aprovado com a média {media:.2f}!")
 else:
