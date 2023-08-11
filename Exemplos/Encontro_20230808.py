@@ -1,10 +1,9 @@
 # Encontro - 08/08/2023
 
 # Exercício 1
-Escreva um script que pergunta ao usuário se ele deseja converter uma temperatura de grau Celsius para Farenheit ou vice-versa.
-Para cada opção, crie uma função.
-Crie uma terceira, que é um menu para o usuário escolher a opção desejada, onde esse menu chama a função de conversão correta.
-Conversão entre Celsius e Farenheit
+# Escreva um script que pergunta ao usuário se ele deseja converter uma temperatura de grau Celsius para Farenheit ou vice-versa. Para cada opção, crie uma função. 
+# Crie uma terceira, que é um menu para o usuário escolher a opção desejada, onde esse menu chama a função de conversão correta.
+# Conversão entre Celsius e Farenheit
 
 def CparaF(temperatura):
     tempF = (temperatura * 1.8) + 32
