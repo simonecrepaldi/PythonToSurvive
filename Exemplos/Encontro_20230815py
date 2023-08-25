@@ -1,0 +1,27 @@
+# Interview puzzle :
+# There are 16 motorbikes with a tank that has the capacity to go 100 km (when the tank is full).
+# Using these 16 motorbikes, what is the maximum distance that you can go?
+# -All the motorbikes are initially fully fuelled.
+# -They all start from the same point.
+# - and Each bike has a rider on it.
+
+
+def calcula(motos):
+    L = []
+    km = (1/motos)*100
+    L.append(km)
+    if motos > 1:
+        L.extend(calcula(motos - 1))
+        return L
+    return L
+
+def jogo():
+    qtde_motos = int(input("Digite a quantidade de motos: "))
+    trajeto = calcula(qtde_motos)
+    print(f"A distância máxima percorrida para {qtde_motos} motos é de {sum(trajeto):.2f}km.")
+    print(f"Total de paradas: {len(trajeto)-1} paradas.")
+    for num, parada in enumerate(trajeto):
+        print(f"Trajeto {num+1}: {parada:.2f}km percorridos")
+
+
+jogo()
