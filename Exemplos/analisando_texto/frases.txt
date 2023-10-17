@@ -1,0 +1,11 @@
+Exercício: Analisando Texto.
+
+Crie um programa que analise um arquivo de texto e forneça as seguintes informações:
+
+Contagem de palavras no texto.
+Contagem de frases no texto.
+Lista das palavras mais frequentes no texto.
+Média de palavras por frase.
+Você pode usar qualquer arquivo de texto como entrada para este programa. Certifique-se de realizar o pré-processamento necessário, como remover pontuações e letras maiúsculas, para garantir que as contagens sejam precisas.
+
+Dica: Você pode usar as bibliotecas re para trabalhar com expressões regulares e collections para ajudar na contagem das palavra.

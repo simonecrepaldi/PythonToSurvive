@@ -3,15 +3,14 @@ import random
 
 cores = {'vermelho': '\033[31m', 'amarelo': '\033[33m', 'verde': '\033[32m', 'branco': '\033[7m', 'fecha': '\033[m'}
 
-
-def game_instruction():
-    print("""Wordle is a single player game
-A player has to guess a five letter hidden word
-You have six attempts
-Your Progress Guide "✔❌❌✔➕"
-"✔" Indicates that the letter at that position was guessed correctly
-"➕" indicates that the letter at that position is in the hidden word, but in a different position
-"❌" indicates that the letter at that position is wrong, and isn't in the hidden word""")
+# def game_instruction():
+#     print("""Wordle is a single player game
+# A player has to guess a five letter hidden word
+# You have six attempts
+# Your Progress Guide "✔❌❌✔➕"
+# "✔" Indicates that the letter at that position was guessed correctly
+# "➕" indicates that the letter at that position is in the hidden word, but in a different position
+# "❌" indicates that the letter at that position is wrong, and isn't in the hidden word""")
 
 
 def check_word():
@@ -44,5 +43,5 @@ def check_word():
             print("")
 
 
-game_instruction()
+# game_instruction()
 check_word()
